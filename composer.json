@@ -1,0 +1,23 @@
+{
+    "name": "irfan/careem-rides-analysis",
+    "description": "Analyzes your careem rides dataset",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "league/csv": "^9.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irfan-dahir",
+            "email": "irfan@dahir.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Careem\\": [
+                "src"
+            ]
+        }
+    }
+}
