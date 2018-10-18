@@ -1,7 +1,6 @@
 # Careem Analyzer
 This library is a **Proof Of Concept**. It objectifies the data dump of your Rides from Careem's user Dashboard into PHP and allows you to use it for analysis.
 
-**THIS IS A CLI ONLY LIBRARY**
 
 ## How To Get Data Dump
 Note: You need to be logged in to the dashboard.
