@@ -53,7 +53,8 @@ class TripPricingComponent
                 'SURGE_DELTA',
                 'OFFLINE_PRICING_ADJUSTMENT',
                 'DISCOUNT',
-                'OTHER_SURCHARGE'
+                'OTHER_SURCHARGE',
+                'CUSTOM_PRICING'
             ]
         )) {
             throw new \InvalidArgumentException("Invalid Component: {$componentId}");
