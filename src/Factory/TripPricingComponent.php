@@ -35,30 +35,30 @@ class TripPricingComponent
     ) : self
     {
 
-        if (!\in_array(
-            $componentId,
-            [
-                'BASE_FARE',
-                'EXTRA_TIME_FARE',
-                'EXTRA_DISTANCE_FARE',
-                'STARTING_FARE',
-                'MOVING_FARE',
-                'WAITING_FARE',
-                'REGULATOR_FEE',
-                'TOLLGATE',
-                'PROMOTION_BOOKING_DISCOUNT',
-                'USER_CREDIT_DISCOUNT',
-                'WAIVED_DISCOUNT',
-                'DELTA_DUE_TO_MINIMUM_CHARGE',
-                'SURGE_DELTA',
-                'OFFLINE_PRICING_ADJUSTMENT',
-                'DISCOUNT',
-                'OTHER_SURCHARGE',
-                'CUSTOM_PRICING'
-            ]
-        )) {
-            throw new \InvalidArgumentException("Invalid Component: {$componentId}");
-        }
+//         if (!\in_array(
+//             $componentId,
+//             [
+//                 'BASE_FARE',
+//                 'EXTRA_TIME_FARE',
+//                 'EXTRA_DISTANCE_FARE',
+//                 'STARTING_FARE',
+//                 'MOVING_FARE',
+//                 'WAITING_FARE',
+//                 'REGULATOR_FEE',
+//                 'TOLLGATE',
+//                 'PROMOTION_BOOKING_DISCOUNT',
+//                 'USER_CREDIT_DISCOUNT',
+//                 'WAIVED_DISCOUNT',
+//                 'DELTA_DUE_TO_MINIMUM_CHARGE',
+//                 'SURGE_DELTA',
+//                 'OFFLINE_PRICING_ADJUSTMENT',
+//                 'DISCOUNT',
+//                 'OTHER_SURCHARGE',
+//                 'CUSTOM_PRICING'
+//             ]
+//         )) {
+//             throw new \InvalidArgumentException("Invalid Component: {$componentId}");
+//         }
 
         $instance = new self();
         $instance->id = $componentId;
